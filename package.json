@@ -1,0 +1,14 @@
+{
+  "name": "cloudbox-tvbox-discover",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --test-scheduled",
+    "deploy": "wrangler deploy",
+    "dry-run": "wrangler deploy --dry-run",
+    "types": "wrangler types"
+  },
+  "devDependencies": {
+    "wrangler": "^4.78.0"
+  }
+}
